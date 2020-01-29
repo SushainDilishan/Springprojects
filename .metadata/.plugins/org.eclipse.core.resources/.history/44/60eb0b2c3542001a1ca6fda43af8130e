@@ -1,0 +1,5 @@
+module springTraining {
+	requires spring.context;
+	
+	
+}

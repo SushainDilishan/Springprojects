@@ -1,0 +1,18 @@
+package com.Krishantha.training.salesmanager.service;
+
+import java.util.List;
+
+import com.Krishntha.training.salemanager.model.Employee;
+import com.Krishntha.training.salemanager.model.EmployeeRepository;
+import com.Krishntha.training.salemanager.model.HibernateEmployeeRepositoryImpl;
+
+public class EmployeeServiceImpl implements EmployeeService {
+
+	EmployeeRepository employeeRepository = new HibernateEmployeeRepositoryImpl();
+	
+	@Override
+	public List<Employee> getAllEmployees(){
+		
+		return employeeRepository.getAllEmployees();
+	}
+}

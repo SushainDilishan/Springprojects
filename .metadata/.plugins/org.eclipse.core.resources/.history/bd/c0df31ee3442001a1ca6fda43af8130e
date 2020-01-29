@@ -1,0 +1,9 @@
+package com.Krishntha.training.salemanager.model;
+
+import java.util.List;
+
+public interface EmployeeRepository {
+
+	List<Employee> getAllEmployees();
+
+}

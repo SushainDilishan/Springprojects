@@ -1,0 +1,5 @@
+package com.Krishantha.training.salesmanager.service;
+
+public class EmployeeServiceImpl {
+
+}
